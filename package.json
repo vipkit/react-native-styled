@@ -4,7 +4,7 @@
     "access": "public"
   },
   "main": "node_modules/expo/AppEntry.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "files": [
     "./src/*"
   ],
