@@ -1,12 +1,10 @@
-
-
 export {
-    Image,
-    ScrollView,
-    FlatList,
-    TouchableOpacity,
-    Text,
-    Row,
-    View,
-
+  Image,
+  ScrollView,
+  FlatList,
+  TouchableOpacity,
+  Text,
+  Row,
+  Col,
+  View,
 } from './components'

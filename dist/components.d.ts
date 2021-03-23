@@ -65,6 +65,9 @@ export declare const View: import("styled-components").StyledComponent<typeof im
 export declare const Row: (props: Omit<BoxStyleProps, 'flexDirection'> & {
     children: React.ReactNode;
 }) => JSX.Element;
+export declare const Col: (props: Omit<BoxStyleProps, 'flexDirection'> & {
+    children: React.ReactNode;
+}) => JSX.Element;
 export declare const Text: import("styled-components").StyledComponent<typeof import("react-native").Text, import("styled-components").DefaultTheme, Partial<BoxStyle> & Partial<{
     textAlign: TextStyle['textAlign'];
     fontWeight: TextStyle['fontWeight'];

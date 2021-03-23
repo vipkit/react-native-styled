@@ -110,6 +110,12 @@ export const Row = (
   }
 ) => <View {...props} flexDirection="row" />
 
+export const Col = (
+  props: Omit<BoxStyleProps, 'flexDirection'> & {
+    children: React.ReactNode
+  }
+) => <View {...props} flexDirection="column" />
+
 export const Text = styled.Text<BoxStyleProps & TextStyleProps>(
   boxStyles,
   typography
@@ -122,9 +128,3 @@ export const FlatList = styled.FlatList<BoxStyleProps>(boxStyles)
 export const ScrollView = styled.ScrollView<BoxStyleProps>(boxStyles)
 
 export const Image = styled.Image<BoxStyleProps>(boxStyles)
-
-
-
-
-
-
