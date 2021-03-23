@@ -1,0 +1,11 @@
+import React from 'react';
+import styled from 'styled-components/native';
+import { space, color, layout, typography, flexbox, position, border, shadow, compose, } from 'styled-system';
+var boxStyles = compose(space, flexbox, position, layout, border, color, shadow);
+export var View = styled.View(boxStyles);
+export var Row = function (props) { return <View {...props} flexDirection="row"/>; };
+export var Text = styled.Text(boxStyles, typography);
+export var TouchableOpacity = styled.TouchableOpacity(boxStyles);
+export var FlatList = styled.FlatList(boxStyles);
+export var ScrollView = styled.ScrollView(boxStyles);
+export var Image = styled.Image(boxStyles);

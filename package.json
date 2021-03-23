@@ -4,11 +4,9 @@
     "access": "public"
   },
   "main": "node_modules/expo/AppEntry.js",
-  "version": "0.0.2",
-  "files": [
-    "./src/*"
-  ],
-  "browser": "./src/index.tsx",
+  "version": "0.0.5",
+  "browser": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -35,6 +33,5 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
     "react-native-web": "~0.13.12",
     "typescript": "^4.2.3"
-  },
-  "private": false
+  }
 }
